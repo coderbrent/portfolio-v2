@@ -1,0 +1,24 @@
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+p {
+font-family: 'Archivo Narrow', sans-serif;
+}
+
+#banner-section {
+  background-color: plum;
+  color: white;
+}
+
+.bio {
+  margin: 10%;
+  padding: 10%;
+  color: white;
+  font-size: 2rem;
+}
+
+.bio-pic {
+  border-radius: 50%;
+}
