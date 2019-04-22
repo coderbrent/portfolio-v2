@@ -1,24 +1,38 @@
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   font-family: 'IBM Plex Serif', serif;
+}
+
+h4, h5, h6 {
+  font-family: 'Press Start 2P', cursive;
+  color: palevioletred;
 }
 
 p {
 font-family: 'Archivo Narrow', sans-serif;
 }
 
-#banner-section {
-  background-color: plum;
-  color: white;
-}
-
 .bio {
-  margin: 10%;
-  padding: 10%;
+  text-align: center;
   color: white;
   font-size: 2rem;
+  margin: auto;
 }
 
 .bio-pic {
   border-radius: 50%;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border: 1px solid palevioletred;
+}
+
+.main {
+  color: white;
+  background-color: rgb(37, 35, 38);
+  border-bottom: 8px solid palevioletred;
+}
+
+.bio::before {
+  background-image: url("./assets/images/IMG_0187.png");
 }

@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About Me</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|IBM+Plex+Serif|Press+Start+2P" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,15 +13,58 @@
 
 <body>
   <header>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">@coderbrent</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">_about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">_portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">_contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
   </header>
 
-  <section id="banner-section">
+  <section id="banner-section" class="container-fluid">
     <div class="row">
-      <div class="col-lg-12">
-        <p class="lead">MERN Stack</p>
-        <img src="/Users/brentabruzese/Desktop/portfolio-v2/assets/images/IMG_0187.png" class="bio-pic">
-        <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at accusantium nisi minima eum consectetur ea, dolore dignissimos corrupti quam facilis veritatis animi neque cumque eius, distinctio voluptates ipsum pariatur odit voluptatibus. Tempore sunt est aut voluptates dolor inventore error, modi animi expedita at quasi fugit maxime porro temporibus cum.</p>
+      <div class="col-md-2 main d-flex align-items-center">
+        <img src="./assets/images/IMG_0187.png" class="bio-pic">
+      </div>
+      <div class="col-md-10 main">
+        <p class="bio">Full Stack MERN Dev...
+        with an Entreprenurial Twist.</p>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+              <a class="waves-effect waves-light btn-large deep-purple darken-1">learn more</a>
+            </div>
+          </div>
+      </div>
+   
+    </div>
+  </section>
+
+  <section id="about-section" class="container-fluid h-100 m-2">
+    <div class="row">
+      <div class="col-md-3">
+        <h4>About Me</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam suscipit sunt repudiandae, quam consequuntur perspiciatis?</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Contact</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam?</p>
+      </div>
+      <div class="col-md-3">
+        <h4>Portfolio</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorem odio voluptatum omnis qui dicta?</p>
       </div>
     </div>
   </section>
