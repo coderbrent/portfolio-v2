@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About Me</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|IBM+Plex+Serif|Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow|Press+Start+2P" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="no-gutters">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">@coderbrent</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,58 +21,118 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">_about</a>
+              <a class="nav-link" href="#">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">_portfolio</a>
+              <a class="nav-link" href="#">portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">_contact</a>
+              <a class="nav-link" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blog</a>
             </li>
           </ul>
         </div>
       </nav>
   </header>
 
-  <section id="banner-section" class="container-fluid">
+  <main>
+  <section id="banner-section" class="container-fluid h-100 main jumbotron">
     <div class="row">
-      <div class="col-md-2 main d-flex align-items-center">
-        <img src="./assets/images/IMG_0187.png" class="bio-pic">
+      <div class="col-md-2 d-flex align-items-center">
+        <img src="./assets/images/IMG_0187.png" class="bio-pic d-inline-block">
       </div>
-      <div class="col-md-10 main">
-        <p class="bio">Full Stack MERN Dev...
-        with an Entreprenurial Twist.</p>
-        <div class="row">
-            <div class="col-md-12 d-flex justify-content-center">
-              <a class="waves-effect waves-light btn-large deep-purple darken-1">learn more</a>
-            </div>
-          </div>
+      <div class="col-md-10 d-inline-block">
+        <h3>Hi! I'm Brent Abruzese! I'm a...</h3>
+          <h1 class="banner-title"><strong>MERN</strong> Stack Developer.</h1>
+            <p class="banner-subtitle"><span class="new">MongoDB</span> - Express.js - React.js - Node.js</p>
+              <button class="waves-effect waves-light btn-large banner-buttons m-2">hire me!</button>
+              <button class="waves-effect waves-light btn-large banner-buttons m-2">contact me!</button>
       </div>
-   
     </div>
   </section>
 
-  <section id="about-section" class="container-fluid h-100 m-2">
+  <section id="about-section" class="container mt-2">
     <div class="row">
-      <div class="col-md-3">
-        <h4>About Me</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam suscipit sunt repudiandae, quam consequuntur perspiciatis?</p>
-      </div>
-      <div class="col-md-6">
-        <h4>Contact</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quam?</p>
-      </div>
-      <div class="col-md-3">
-        <h4>Portfolio</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolorem odio voluptatum omnis qui dicta?</p>
-      </div>
+     <div class="col-md-10">
+      <h4 class="subheading">About Me</h3>
+      <p>Ah, the dreaded "About Me" page.</p> 
+      <p>Like most people, I could probably sit and talk about myself for hours given the opportunity.
+        On the other hand, I can't stand listening to someone else droll on about themselves, so allow me to hurry along
+        with this section!
+      </p>
+      <h4 class="subheading">Professional Stuff</h3>
+      <p>Outside of a few retail gigs in my late teens and early twenties, I've spent the majority of my working life as a business owner in 
+        the Limousine industry. Back in 2012, much to my wife's dismay, I took the last $5k I had in the bank and started a car service I called Black Rock Limousine. 
+        Things got off to a great start and I grew sales from $0 (of course) to just under $400k in 3 years of operation.
+      </p>
+      <p>As the business grew, I began driving less and hiring more. Things began rapidly taking off. So much so, that by mid-2015, I found
+        myself acquiring a local competitor company, Red Bank Limo. With the acquisition, our fleet grew to 10 vehicles and our employee count to 22. 
+        By the end of 2016, the merged company was hovering just around the $1 million mark in annual revenue. We were transporting celebrities, athletes, CEO's and hundreds of other
+        local travelers.
+      </p>
+      <p><i class="quote grey">So why on Earth did I decide to give up on a successful business to become a developer of all things?</i></p>
+      <p>Simply put - I love computers. I always have. My first computer was a broken Tandy 2000 that my Grandmother brought home
+        from her office for me to play with in the late 80's. In middle school I was exposed to computer programming via LOGO - an educational programming
+        language designed to teach kids graphical programming (does anyone else remember the turtle?). Years later, I would spend hours tinkering
+        with Visual Basic 3.0 (and eventually, 4.0!) on our family speed demon 233mhz Packard Bell desktop PC. Steve Case never knew what him him.
+      </p>
+      <p>It only took one in depth conversation with my wife to point me towards my passion. When my daughter was born in 2016, I knew I needed security.
+        With current advancements in technology, I feared (along with many of my colleagues) that my industry was living on borrowed time... to be cont.
+      </p>
+     </div>
+     <div class="col-md-2 portfolio">
+       <h4 class="subheading">What I'm Working On...</h4>
+      <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="./assets/images/trainscreen.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Train Schedule</h5>
+            <p class="card-text">This was a class homework assignment I completed that I really enjoyed exploring.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p>I Used: Firebase, Moment, Bootstrap</p></li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Visit This Project</a>
+          </div>
+        </div>
+     </div>
     </div>
   </section>
+</main>
+
+<footer class="page-footer footer-background">
+    <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Howdy!</h5>
+            <p class="grey-text text-lighten-3">Need to reach me? Send me an e-mail to: brent.abruzese@gmail.com</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Page Links</h5>
+            <ul>
+              <li><a class="white-text text-darken-1" href="#!">about</a></li>
+              <li><a class="white-text text-darken-1" href="#!">portfolio</a></li>
+              <li><a class="white-text text-darken-1" href="#!">contact</a></li>
+              <li><a class="white-text text-darken-1" href="#!">blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2019 Copyright Brent Abruzese
+        </div>
+      </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 </body>
 
 </html>

@@ -1,21 +1,18 @@
 
-h1, h2, h3 {
-  font-family: 'IBM Plex Serif', serif;
-}
-
-h4, h5, h6 {
-  font-family: 'Press Start 2P', cursive;
-  color: palevioletred;
+h1, h2, h3, h4, h5 {
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 p {
-font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-size: 1.10rem;
+color: #444;
 }
 
-.bio {
-  text-align: center;
+.banner-title {
+  text-align: left;
   color: white;
-  font-size: 2rem;
+  font-size: 9rem;
   margin: auto;
 }
 
@@ -24,15 +21,94 @@ font-family: 'Archivo Narrow', sans-serif;
   width: 100%;
   height: auto;
   position: relative;
-  border: 1px solid palevioletred;
 }
 
 .main {
   color: white;
-  background-color: rgb(37, 35, 38);
-  border-bottom: 8px solid palevioletred;
+  background-color: rgb(58, 54, 60);
+  border-bottom: 10px solid mediumslateblue;
 }
 
-.bio::before {
-  background-image: url("./assets/images/IMG_0187.png");
+.fa-node-js {
+  color: greenyellow;
+}
+
+.fa-react {
+  color: rgb(10, 116, 228);
+}
+
+.dev-logo {
+  font-size: 4rem;
+}
+
+.express {
+  height: 58px;
+  width: 58px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.grad {
+  background-color: darkgray;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.new::after {
+  background-image: url("<img src=https://img.icons8.com/dusk/48/000000/new.png>");
+}
+
+.portfolio {
+  direction: ltr;
+  display: inline-grid;
+}
+
+.banner-subtitle {
+  color: dodgerblue;
+  font-size: 2.5rem;
+  padding: 0 0 0 1rem;
+}
+
+.banner-text {
+  color: whitesmoke;
+  font-size: 1.15rem;
+  padding: 0 0 0 1rem;
+  font-family: 'Archivo', sans-serif;
+}
+
+.nav-link {
+  font-family: 'Archivo', sans-serif;
+  color: tomato !important;
+}
+
+.footer-text {
+  color: whitesmoke;
+}
+
+.banner-buttons {
+  background-color: mediumslateblue;
+}
+
+.footer-background {
+  background-color:  rgb(58, 54, 60);
+  border-top: mediumslateblue solid 10px;
+}
+
+h4.subheading {
+  font-family: 'Press Start 2P', cursive;
+  color: dodgerblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
